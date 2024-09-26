@@ -1,0 +1,37 @@
+.intro__container{
+    margin-top: 100px;
+    display: flex;
+}
+.intro__content{
+    padding-top: 100px;
+    margin-right: 100px;
+}
+.intro__title{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    color: $secondary-color;
+}
+.intro__text{
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 32px;
+    color: $main-color;
+    padding-top: 25px;
+    padding-bottom: 45px;
+}
+.intro__link{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 60px;
+    color: #fff;
+    background: #458FF6;
+    padding: 20px 40px;
+    border-radius: 55px;
+    transition: 0.3s ease all;
+}
+.intro__link:hover{
+    color: #458FF6;
+    background-color: #fff;
+    border: 2px solid #458FF6;
+}
